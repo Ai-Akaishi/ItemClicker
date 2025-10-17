@@ -1,0 +1,28 @@
+{
+	"description": "左クリック",
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 255,
+	"min_cost": {
+		"base": 2147483647,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 2147483647,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 2147483647,
+	"slots": [
+		"any"
+	],
+	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "run_function",
+					"function": "clicker:left"
+				}
+			}
+		]
+	}
+}
